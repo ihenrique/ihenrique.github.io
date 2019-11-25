@@ -1,0 +1,685 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,500&display=swap");
+
+/* line 1, _sass/lib/_reset.scss */
+
+html,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 27, _sass/lib/_reset.scss */
+
+ul {
+  list-style: none;
+}
+
+/* line 31, _sass/lib/_reset.scss */
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+/* line 38, _sass/lib/_reset.scss */
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 46, _sass/lib/_reset.scss */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 51, _sass/lib/_reset.scss */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 57, _sass/lib/_reset.scss */
+
+input {
+  line-height: normal;
+}
+
+/* line 61, _sass/lib/_reset.scss */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 67, _sass/lib/_reset.scss */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 72, _sass/lib/_reset.scss */
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+/* line 79, _sass/lib/_reset.scss */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 84, _sass/lib/_reset.scss */
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #fff inset !important;
+}
+
+/* line 88, _sass/lib/_reset.scss */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* line 95, _sass/lib/_reset.scss */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 101, _sass/lib/_reset.scss */
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 106, _sass/lib/_reset.scss */
+
+textarea {
+  overflow: auto;
+}
+
+/* line 110, _sass/lib/_reset.scss */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* line 114, _sass/lib/_reset.scss */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 119, _sass/lib/_reset.scss */
+
+html {
+  box-sizing: border-box;
+}
+
+/* line 123, _sass/lib/_reset.scss */
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* line 127, _sass/lib/_reset.scss */
+
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+/* line 137, _sass/lib/_reset.scss */
+
+iframe {
+  border: 0;
+}
+
+/* line 141, _sass/lib/_reset.scss */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 146, _sass/lib/_reset.scss */
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
+
+/* line 10, _sass/placeholders/_colors.scss */
+
+main,
+.footer,
+.header {
+  background: url("../imgs/pattern.png");
+}
+
+/* line 1, _sass/placeholders/_limit.scss */
+
+.limit,
+.footer__limit,
+.header__limit,
+.workflow__limit {
+  width: 100%;
+  max-width: 810px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 1, _sass/placeholders/_tipografia.scss */
+
+h2,
+h3,
+dt,
+p,
+dd {
+  letter-spacing: 0.5px;
+}
+
+/* line 6, _sass/placeholders/_tipografia.scss */
+
+h2,
+h3,
+dt {
+  font-weight: 500;
+}
+
+/* line 10, _sass/placeholders/_tipografia.scss */
+
+p,
+dd {
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+/* line 15, _sass/placeholders/_tipografia.scss */
+
+h2,
+h3,
+p,
+dt,
+dd {
+  color: #282828;
+}
+
+/* line 1, _sass/_generics.scss */
+
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  background-color: #f6f6f8;
+}
+
+/* line 12, _sass/_generics.scss */
+
+.drop-shadow {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* line 25, _sass/_generics.scss */
+
+h2,
+h3 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+/* line 31, _sass/_generics.scss */
+
+h2:first-child,
+h3:first-child {
+  margin-top: 0;
+}
+
+/* line 36, _sass/_generics.scss */
+
+h2 {
+  font-size: 42px;
+}
+
+/* line 40, _sass/_generics.scss */
+
+h3 {
+  font-size: 26px;
+}
+
+/* line 44, _sass/_generics.scss */
+
+p {
+  margin-bottom: 15px;
+}
+
+/* line 48, _sass/_generics.scss */
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* line 57, _sass/_generics.scss */
+
+dd {
+  margin-bottom: 15px;
+}
+
+/* line 62, _sass/_generics.scss */
+
+dt,
+dd {
+  padding-left: 10px;
+  border-left: 4px solid gray;
+  box-sizing: border-box;
+}
+
+/* line 68, _sass/_generics.scss */
+
+dt.-fe,
+dd.-fe {
+  border-color: orange;
+}
+
+/* line 72, _sass/_generics.scss */
+
+dt.-wp,
+dd.-wp {
+  border-color: steelblue;
+}
+
+/* line 76, _sass/_generics.scss */
+
+dt.-ux,
+dd.-ux {
+  border-color: limegreen;
+}
+
+/* line 83, _sass/_generics.scss */
+
+hr {
+  max-width: 300px;
+  margin: 15px auto;
+  border: 0;
+  border-top: 1px solid #282828;
+}
+
+/* line 90, _sass/_generics.scss */
+
+.tech-exp {
+  -webkit-column-width: 200px;
+  -moz-column-width: 200px;
+  column-width: 200px;
+}
+
+/* line 93, _sass/_generics.scss */
+
+.tech-exp li {
+  margin-bottom: 5px;
+}
+
+/* line 97, _sass/_generics.scss */
+
+.tech-exp li::before {
+  margin-right: 5px;
+  display: inline-block;
+  width: 6px;
+  height: 2px;
+  content: '';
+  vertical-align: middle;
+  background-color: #000;
+}
+
+/* line 4, _sass/blocks/_footer.scss */
+
+.footer a {
+  text-decoration: none;
+  color: #282828;
+}
+
+/* line 8, _sass/blocks/_footer.scss */
+
+.footer a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* line 20, _sass/blocks/_header.scss */
+
+.header__logo {
+  width: 240px;
+  height: 80px;
+}
+
+/* line 25, _sass/blocks/_header.scss */
+
+.header__logo a {
+  color: #000;
+}
+
+/* line 43, _sass/blocks/_header.scss */
+
+.header__mail {
+  margin-bottom: 5px;
+}
+
+/* line 1, _sass/blocks/_link.scss */
+
+.link {
+  color: #fff;
+  background-color: #000;
+  line-height: 2;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  height: 32px;
+  overflow: hidden;
+}
+
+/* line 11, _sass/blocks/_link.scss */
+
+.link span {
+  display: block;
+  padding: 0 15px;
+  line-height: 32px;
+  word-break: keep-all;
+}
+
+/* line 22, _sass/blocks/_link.scss */
+
+.link {
+  max-width: 0;
+  overflow: hidden;
+  transition: max-width cubic-bezier(0.62, 0.28, 0.23, 0.99) 0.7s;
+  will-change: max-width;
+}
+
+/* line 28, _sass/blocks/_link.scss */
+
+.link span {
+  opacity: 0;
+  transition: opacity cubic-bezier(0.62, 0.28, 0.23, 0.99) 0.7s;
+  will-change: opacity;
+}
+
+/* line 35, _sass/blocks/_link.scss */
+
+.-anitrigged .link {
+  max-width: 300px;
+}
+
+/* line 38, _sass/blocks/_link.scss */
+
+.-anitrigged .link span {
+  opacity: 1;
+}
+
+/* line 3, _sass/blocks/_project.scss */
+
+.project:hover .project__content figcaption {
+  opacity: 1;
+}
+
+/* line 10, _sass/blocks/_project.scss */
+
+.project__content {
+  position: relative;
+}
+
+/* line 13, _sass/blocks/_project.scss */
+
+.project__content figcaption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 0.4s cubic-bezier(0.62, 0.28, 0.23, 0.99);
+}
+
+/* line 28, _sass/blocks/_project.scss */
+
+.project__title {
+  margin-bottom: 0;
+  color: #fff;
+}
+
+/* line 23, _sass/blocks/_workflow.scss */
+
+.workflow__content .project {
+  display: block;
+}
+
+/* line 1, _sass/_global-mod.scss */
+
+.-tcenter {
+  text-align: center;
+}
+
+/* line 5, _sass/_animation.scss */
+
+.header__logo {
+  -webkit-transform: translateX(-100vw);
+  transform: translateX(-100vw);
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+/* line 13, _sass/_animation.scss */
+
+.-anitrigged .header__logo {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+/* line 19, _sass/_animation.scss */
+
+.header__logo {
+  transition: -webkit-transform cubic-bezier(0.62, 0.28, 0.23, 0.99) 0.7s;
+  transition: transform cubic-bezier(0.62, 0.28, 0.23, 0.99) 0.7s;
+  transition: transform cubic-bezier(0.62, 0.28, 0.23, 0.99) 0.7s, -webkit-transform cubic-bezier(0.62, 0.28, 0.23, 0.99) 0.7s;
+}
+
+/* line 23, _sass/_animation.scss */
+
+.header__mail {
+  transition-delay: 0.7s;
+}
+
+/* line 27, _sass/_animation.scss */
+
+.header__mail span,
+.header__phone {
+  transition-delay: 0.91s;
+}
+
+/* line 31, _sass/_animation.scss */
+
+.header__phone span {
+  transition-delay: 1.12s;
+}
+
+@media screen and (min-width: 640px) {
+  /* line 11, _sass/blocks/_header.scss */
+
+  .header__limit {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* line 34, _sass/blocks/_header.scss */
+
+  .header__adress {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  /* line 60, _sass/blocks/_header.scss */
+
+  .header__mail,
+  .header__phone {
+    display: block;
+  }
+
+  /* line 15, _sass/blocks/_workflow.scss */
+
+  .workflow__content {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+    padding-top: 120px;
+  }
+
+  /* line 23, _sass/blocks/_workflow.scss */
+
+  .workflow__content .project {
+    margin-bottom: 40px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  /* line 34, _sass/blocks/_workflow.scss */
+
+  .workflow__content .project:first-child {
+    margin-top: -120px;
+  }
+}
+
+@media screen and (min-width: 910px) {
+  /* line 1, _sass/_generics.scss */
+
+  body {
+    padding: 20px;
+  }
+
+  /* line 2, _sass/blocks/_header.scss */
+
+  .header {
+    padding-top: 80px;
+  }
+
+  /* line 4, _sass/blocks/_workflow.scss */
+
+  .workflow {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  /* line 1, _sass/placeholders/_limit.scss */
+
+  .limit,
+  .footer__limit,
+  .header__limit,
+  .workflow__limit {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  /* line 1, _sass/placeholders/_limit.scss */
+
+  .limit,
+  .footer__limit,
+  .header__limit,
+  .workflow__limit {
+    padding: 15px;
+  }
+
+  /* line 20, _sass/blocks/_header.scss */
+
+  .header__logo {
+    margin-bottom: 30px;
+  }
+
+  /* line 60, _sass/blocks/_header.scss */
+
+  .header__mail,
+  .header__phone {
+    font-size: 4vw;
+    display: inline-block;
+  }
+
+  /* line 4, _sass/blocks/_workflow.scss */
+
+  .workflow {
+    margin-top: 40px;
+  }
+
+  /* line 23, _sass/blocks/_workflow.scss */
+
+  .workflow__content .project {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1139px) {
+  /* line 1, _sass/placeholders/_limit.scss */
+
+  .limit,
+  .footer__limit,
+  .header__limit,
+  .workflow__limit {
+    padding: 30px;
+  }
+}

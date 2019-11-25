@@ -1,0 +1,253 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans.eot");
+  src: url("../fonts/OpenSans.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans.woff2") format("woff2"), url("../fonts/OpenSans.woff") format("woff"), url("../fonts/OpenSans.ttf") format("truetype"), url("../fonts/OpenSans.svg#OpenSans") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: regular;
+  src: url("../fonts/BwSeidoRound-Regular.eot");
+  src: url("../fonts/BwSeidoRound-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/BwSeidoRound-Regular.woff2") format("woff2"), url("../fonts/BwSeidoRound-Regular.woff") format("woff"), url("../fonts/BwSeidoRound-Regular.ttf") format("truetype"), url("../fonts/BwSeidoRound-Regular.svg#BwSeidoRound-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: medium;
+  src: url("../fonts/BwSeidoRound-Medium.eot");
+  src: url("../fonts/BwSeidoRound-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/BwSeidoRound-Medium.woff2") format("woff2"), url("../fonts/BwSeidoRound-Medium.woff") format("woff"), url("../fonts/BwSeidoRound-Medium.ttf") format("truetype"), url("../fonts/BwSeidoRound-Medium.svg#BwSeidoRound-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: bold;
+  src: url("../fonts/BwSeidoRound-Bold.eot");
+  src: url("../fonts/BwSeidoRound-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/BwSeidoRound-Bold.woff2") format("woff2"), url("../fonts/BwSeidoRound-Bold.woff") format("woff"), url("../fonts/BwSeidoRound-Bold.ttf") format("truetype"), url("../fonts/BwSeidoRound-Bold.svg#BwSeidoRound-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* line 1, _sass/lib/_reset.scss */
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 28, _sass/lib/_reset.scss */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* line 38, _sass/lib/_reset.scss */
+
+ul {
+  list-style: none;
+}
+
+/* line 42, _sass/lib/_reset.scss */
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+/* line 49, _sass/lib/_reset.scss */
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 57, _sass/lib/_reset.scss */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 62, _sass/lib/_reset.scss */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 68, _sass/lib/_reset.scss */
+
+input {
+  line-height: normal;
+}
+
+/* line 72, _sass/lib/_reset.scss */
+
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 78, _sass/lib/_reset.scss */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 83, _sass/lib/_reset.scss */
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 90, _sass/lib/_reset.scss */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 95, _sass/lib/_reset.scss */
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #fff inset !important;
+}
+
+/* line 99, _sass/lib/_reset.scss */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  -o-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* line 106, _sass/lib/_reset.scss */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 112, _sass/lib/_reset.scss */
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 117, _sass/lib/_reset.scss */
+
+textarea {
+  overflow: auto;
+}
+
+/* line 121, _sass/lib/_reset.scss */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* line 125, _sass/lib/_reset.scss */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 130, _sass/lib/_reset.scss */
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 134, _sass/lib/_reset.scss */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* line 138, _sass/lib/_reset.scss */
+
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+/* line 148, _sass/lib/_reset.scss */
+
+iframe {
+  border: 0;
+}
+
+/* line 152, _sass/lib/_reset.scss */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 157, _sass/lib/_reset.scss */
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
